@@ -1,9 +1,10 @@
 # Write your code here.
 def line(deli)
+  number = deli.length + 1
   if deli.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
+    puts "The line is currently:  "
   end
 end
 
