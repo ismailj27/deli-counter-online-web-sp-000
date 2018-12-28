@@ -6,7 +6,7 @@ def line(deli)
     idx = 1
     announcement = "The line is currently:"
     deli.each do |deli_list|
-      announcement = announcement + "#{idx}. #{deli_list} "
+      announcement = announcement + " #{idx}. #{deli_list}"
       idx += 1
     end
     puts announcement
