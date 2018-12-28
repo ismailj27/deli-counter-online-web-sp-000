@@ -13,5 +13,10 @@ def take_a_number(katz_deli, name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
-def now_serving (name)
-  if 
+def now_serving (deli)
+  if deli.length == 0
+    puts "There is nobody waiting to be served!"
+  elsif
+    puts "Currently serving #{deli[0]}"
+  end
+end
