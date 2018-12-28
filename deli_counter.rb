@@ -12,3 +12,4 @@ def take_a_number(katz_deli, name)
   number = katz_deli.length + 1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
+
