@@ -9,7 +9,7 @@ def line(deli)
       announcement = announcement + " #{idx}. #{deli_list} "
       idx += 1
     end
-    return announcement
+    puts announcement
   end
 end
 
