@@ -8,6 +8,7 @@ def line(deli)
     announcement = "The line is currently:"
     deli.each do |deli_list|
       announcement += " #{idx}. #{deli[0]} "
+      idx += 1
     end
   end
 end
